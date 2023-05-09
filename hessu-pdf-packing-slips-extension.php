@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Required files
 include plugin_dir_path( __FILE__ ) . '/inc/add-section.php';
 include plugin_dir_path( __FILE__ ) . '/inc/helpers.php';
+include plugin_dir_path( __FILE__ ) . '/inc/add-info-text.php';
 include plugin_dir_path( __FILE__ ) . '/inc/admin-notice.php';
  
 /**
@@ -31,29 +32,3 @@ add_action( 'plugins_loaded', function() {
   $plugin_path = dirname( plugin_basename( __FILE__ ) ) . '/languages';
   load_plugin_textdomain( 'hessu-pdf' , false, $plugin_path);
 } );
-
-/**
- * Add information text to the document
- *
- * @param string $document_type WCPDF document type
- * @param object $order Woocommerce order object
- */
-function add_info_text( $document_type, $order ) {
-  $option = get_option( 'wpo_wcpdf_settings_general' );
-
-  if ( ! empty( $option ) ) {
-
-    $option_checkbox_new = $option['hessu_setting_checkbox_new'];
-    $option_checkbox_old = $option['hessu_setting_checkbox_old'];
-
-    $count_orders = check_customer_orders( $order );
-
-    if ( ( $option_checkbox_new && $count_orders === 0 ) || ( $option_checkbox_old && $count_orders > 0 ) ) {
-      ?>
-      <div style="text-align: center;">
-        <p style="font-size: 1rem;"><?php esc_html_e( $option['hessu_setting_textarea']['default'] ) ?></p>
-      </div>
-      <?php
-    }
-  }
-}

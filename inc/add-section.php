@@ -1,8 +1,4 @@
 <?php
-/**
- * Add custom section
- *
- */
 namespace Hessu_pdf;
 
 /**

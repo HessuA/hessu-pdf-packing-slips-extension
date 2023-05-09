@@ -1,13 +1,13 @@
 <?php
-/**
- * Admin notice if WCPDF is not active
- */
 namespace Hessu_pdf;
 
+/**
+ * Admin notice if WCPDF is inactive
+ */
 function admin_notice() {
   ?>
   <div class="notice notice-error is-dismissible">
-    <p><?php _e( 'Lisäosan käyttö vaatii, että Pdf Invoices & Packing Slips for Woocommerce on aktiivinen', 'hessu-pdf' ); ?></p>
+    <p><?php _e( 'The use of this plugin requires that Pdf Invoices and Packing Slips for Woocommerce is active', 'hessu-pdf' ); ?></p>
   </div>
   <?php
 }

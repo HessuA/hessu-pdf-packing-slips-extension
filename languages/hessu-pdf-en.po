@@ -43,5 +43,5 @@ msgid "Show to customers who have placed an order at least once before"
 msgstr ""
 
 #: inc/admin-notice.php:10
-msgid "Lisäosan käyttö vaatii, että Pdf Invoices & Packing Slips for Woocommerce on aktiivinen"
+msgid "The use of this plugin requires that Pdf Invoices and Packing Slips for Woocommerce is active"
 msgstr ""

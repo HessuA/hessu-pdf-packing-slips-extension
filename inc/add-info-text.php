@@ -17,7 +17,7 @@ function add_info_text( $document_type, $order ) {
 
     $count_orders = check_customer_orders( $order );
 
-    if ( ( $option_checkbox_new && $count_orders === 0 ) || ( $option_checkbox_old && $count_orders > 0 ) ) {
+    if ( ( $option_checkbox_new && $count_orders === 1 ) || ( $option_checkbox_old && $count_orders > 1 ) ) {
       ?>
       <div style="text-align: center;">
         <p style="font-size: 1rem;"><?php esc_html_e( $option['hessu_setting_textarea']['default'] ) ?></p>

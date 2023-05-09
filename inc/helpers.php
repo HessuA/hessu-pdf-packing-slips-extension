@@ -20,7 +20,7 @@ function check_customer_orders( $order ) {
   $args = array(
     'billing_email' => $order->get_billing_email(),
     'status'        => array( 'wc-completed', 'wc-refunded' ),
-    'numberposts'   => 1,
+    'numberposts'   => 2,
   );
 
   if ( ! empty( $args ) ) {

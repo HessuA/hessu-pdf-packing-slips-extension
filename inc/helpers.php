@@ -19,7 +19,7 @@ function check_customer_orders( $order ) {
 
   $args = array(
     'billing_email' => $order->get_billing_email(),
-    'status'        => array( 'wc-completed', 'wc-refunded' ),
+    'status'        => apply_filters( 'hessu-pdf-order-status', array( 'wc-completed', 'wc-refunded' ) ),
     'numberposts'   => 2,
   );
 

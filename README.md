@@ -1,6 +1,6 @@
 # Pieni lisäosa joka laajentaa PDF Invoice & Packing Slip -lisäosan toiminnallisuutta.
 
-Lataa lisäosa oikean yläkulman valikosta ja asenna ladattu zip paketti.
+Lataa lisäosa oikean yläkulman "Code" valikosta ja asenna ladattu zip paketti.
 
 Lisäosa lisää Pdf Invoice & Packing slips for WooCommerce lisäosan asetuksiin uuden osion, jossa voit määrittää tekstin joka lisätään laskuun/pakkauslistaan. Voit määrittää kelle tämä teksti näytetään, valittavana on vain uusille tilaajille, vain vähintään yhden tilauksen teheneille tai kaikille tilaajille.
 

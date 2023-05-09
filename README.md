@@ -9,4 +9,4 @@ Lisäosa lisää Pdf Invoice & Packing slips for WooCommerce lisäosan asetuksii
 
 ![Näyttökuva 2023-5-9 kello 18 36 44](https://github.com/HessuA/hessu-pdf-packing-slips-extension/assets/64112641/495e6fc8-2d00-45f0-8023-03d719425a6b)
 
-Tätä lisäosaa ei ole testattu vielä livenä.
+Lisäosa on vielä kehityksen alla ja testaaminen on vielä työnalla.

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: More info to Pdf Invoices & Packing Slips for Woocommerce
  * Description: Add more info to Pdf Invoices & Packing Slips for Woocommerce plugin.
- * Plugin URL: https://github.com/HessuA/hessu-pdf-packing-slips-extension
+ * Plugin URI: https://github.com/HessuA/hessu-pdf-packing-slips-extension
  * Author: Heikki
  * Version: 1.0.0
  * Text Domain: hessu-pdf

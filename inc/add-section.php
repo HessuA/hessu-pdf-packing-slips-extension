@@ -16,6 +16,18 @@ function add_section( $settings_fields, $page, $option_group, $option_name ) {
         'callback' => '\WPO\WC\PDF_Invoices\Settings_Callbacks::section',
       ),
       array(
+				'type'		 => 'setting',
+				'id'			 => 'hessu_setting_invoice_packing',
+				'title'		 => __( 'Where to display' , 'hessu-pdf' ),
+				'callback' => '\WPO\WC\PDF_Invoices\Settings_Callbacks::multiple_checkboxes',
+				'section'	 => 'hessu_section',
+				'args'		 => array(
+					'option_name'	   => $option_name,
+					'id'			       => 'hessu_setting_invoice_packing',
+					'fields_callback' => __NAMESPACE__ . '\multiple_checkboxes_callback_where_to_display', // Check helpers
+				)
+			),
+      array(
         'type'     => 'setting',
         'id'       => 'hessu_setting_textarea',
         'title'    => __( 'Enter the text you want to add to the invoice/packing slip. The first text area', 'hessu-pdf' ),

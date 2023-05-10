@@ -59,3 +59,15 @@ msgstr "Näytä uusille asiakkaille"
 #: inc/helpers.php:39
 msgid "Show to customers who have placed an order at least once before"
 msgstr "Näytä asiakkaille, jotka ovat tehneet tilauksen vähintään kerran aiemmin"
+
+#: inc/helpers.php:49
+msgid "Packing slips"
+msgstr "Pakkauslistat"
+
+#: inc/helpers.php:50
+msgid "Invoices"
+msgstr "Laskut"
+
+#: inc/add-section.php:21
+msgid "Where to display"
+msgstr "Missä näytetään"

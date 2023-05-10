@@ -12,9 +12,9 @@ function add_info_text( $document_type, $order ) {
 
   if ( ! empty( $option ) ) {
 
-    $option_checkbox_new = $option['hessu_setting_checkbox_new'] ? $option['hessu_setting_checkbox_new'] : '';
-    $option_checkbox_old = $option['hessu_setting_checkbox_old'] ? $option['hessu_setting_checkbox_old'] : '';
-    $option_textarea = $option['hessu_setting_textarea']['default'] ? $option['hessu_setting_textarea']['default'] : '';
+    $option_checkbox_new = isset( $option['hessu_setting_checkbox_new'] ) ? $option['hessu_setting_checkbox_new'] : '';
+    $option_checkbox_old = isset( $option['hessu_setting_checkbox_old'] ) ? $option['hessu_setting_checkbox_old'] : '';
+    $option_textarea     = isset( $option['hessu_setting_textarea']['default'] ) ? $option['hessu_setting_textarea']['default'] : '';
 
     $count_orders = check_customer_orders( $order );
 

@@ -40,8 +40,8 @@ function add_info_text( $document_type, $order ) {
  */
 function template( $text ) {
   ?>
-  <div class="hessu-pdf-container" style="text-align: center; margin: 1rem;">
-    <p class="hessu-pdf-p" style="font-size: 1rem;"><?php esc_html_e( $text ); ?></p>
+  <div class="<?php echo apply_filters( 'hessu-pdf-container', esc_attr( 'hessu-pdf-container' ) ); ?>" style="text-align: center; margin: 1rem;">
+    <p style="font-size: 1rem;"><?php esc_html_e( $text ); ?></p>
   </div>
   <?php
 }

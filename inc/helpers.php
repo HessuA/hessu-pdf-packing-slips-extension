@@ -33,6 +33,8 @@ function check_customer_orders( $order ) {
 
 /**
  * Multiple checkbox callback
+ * 
+ * @return array
  */
 function multiple_checkboxes_callback() {
   return array(
@@ -43,6 +45,8 @@ function multiple_checkboxes_callback() {
 
 /**
  * Multiple checkbox "Where to display"
+ * 
+ * @return array
  */
 function multiple_checkboxes_callback_where_to_display() {
   return array(

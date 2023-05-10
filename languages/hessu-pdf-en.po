@@ -9,13 +9,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-05-09T15:00:59+00:00\n"
+"POT-Creation-Date: 2023-05-10T08:04:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: hessu-pdf\n"
 
 #. Plugin Name of the plugin
 msgid "More info to Pdf Invoices & Packing Slips for Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/HessuA/hessu-pdf-packing-slips-extension"
 msgstr ""
 
 #. Description of the plugin
@@ -26,22 +30,32 @@ msgstr ""
 msgid "Heikki"
 msgstr ""
 
-#: inc/add-section.php:17
+#: inc/add-section.php:15
+#: inc/add-section.php:47
 msgid "Add more info to invoice or packing slip"
 msgstr ""
 
-#: inc/add-section.php:23
-msgid "Enter the text you want to add to the invoice/packing slip"
+#: inc/add-section.php:21
+msgid "Enter the text you want to add to the invoice/packing slip. The first text area"
 msgstr ""
 
-#: inc/add-section.php:37
-msgid "Show to new customers"
+#: inc/add-section.php:35
+#: inc/add-section.php:67
+msgid "Who can see the text"
 msgstr ""
 
-#: inc/add-section.php:48
-msgid "Show to customers who have placed an order at least once before"
+#: inc/add-section.php:53
+msgid "Enter the text you want to add to the invoice/packing slip. The second text area"
 msgstr ""
 
 #: inc/admin-notice.php:10
 msgid "The use of this plugin requires that Pdf Invoices and Packing Slips for Woocommerce is active"
+msgstr ""
+
+#: inc/helpers.php:38
+msgid "Show to new customers"
+msgstr ""
+
+#: inc/helpers.php:39
+msgid "Show to customers who have placed an order at least once before"
 msgstr ""

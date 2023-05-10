@@ -28,3 +28,14 @@ function check_customer_orders( $order ) {
   }
   return $orders;
 }
+
+
+/**
+ * Multiple checkbox callback
+ */
+function multiple_checkboxes_callback() {
+  return array(
+    'checkbox_new' => __( 'Show to new customers', 'hessu-pdf' ),
+    'checkbox_old' => __( 'Show to customers who have placed an order at least once before', 'hessu-pdf' ),
+  );
+}

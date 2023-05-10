@@ -19,7 +19,7 @@ include plugin_dir_path( __FILE__ ) . '/inc/add-section.php';
 include plugin_dir_path( __FILE__ ) . '/inc/helpers.php';
 include plugin_dir_path( __FILE__ ) . '/inc/add-info-text.php';
 include plugin_dir_path( __FILE__ ) . '/inc/admin-notice.php';
- 
+
 /**
  * Hooks
  */

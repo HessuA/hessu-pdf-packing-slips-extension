@@ -18,11 +18,11 @@ function check_customer_orders( $order ) {
 
   $orders = 0; 
 
-  $args = apply_filters( 'hessu-pdf-order-args', array( 
+  $args = array( 
     'billing_email' => $order->get_billing_email(),
-    'status'        => array( 'wc-completed', 'wc-refunded' ),
+    'status'        => apply_filters( 'hessu-pdf-order-status', array( 'wc-completed', 'wc-refunded' ) ),
     'numberposts'   => 2,
-  ) );
+  );
 
   if ( ! empty( $args ) ) {
     $orders = count(wc_get_orders( $args ));
